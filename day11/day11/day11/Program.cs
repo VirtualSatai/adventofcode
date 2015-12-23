@@ -16,8 +16,6 @@ namespace day11
 
             Console.WriteLine("Part 1: " + pw1);
             Console.WriteLine("Part 2: " + pw2);
-
-
         }
 
         static string IteratePasswords(string startPassword)
