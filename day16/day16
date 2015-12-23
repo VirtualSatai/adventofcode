@@ -1,0 +1,12 @@
+p1
+
+cat input | grep -v 'children: [^3]\|cats: [^7]\|samoyeds: [^2]\|pomeranians: [^3]\|akitas: [^0]\|vizslas: 
+[^0]\|goldfish: [^5]\|trees: [^3]\|cars: [^2]\|perfumes: [^1]'
+
+
+p2
+
+grep -v "children: [^3]" input | grep -v "cats: [01234567]" | grep -v "samoyeds: [^2]" | grep -v 
+"pomeranians: \([3456789]\|10\)" | grep -v "akitas: [^0]" | grep -v "vizslas: [^0]" | grep -v "goldfish: 
+\([56789]\|10\)" | grep -v "trees: [0123]" | grep -v "cars: [^2]" | grep -v "perfumes: [^1]"
+
