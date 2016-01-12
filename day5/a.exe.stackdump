@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6117813E
+eax=00000000 ebx=0029CC9C ecx=00000000 edx=00000000 esi=61304427 edi=611CCFB2
+ebp=00000003 esp=0029B6B0 program=D:\Git\adventofcode\day5\a.exe, pid 249232, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
