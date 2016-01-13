@@ -31,7 +31,6 @@ namespace day18
                 Console.WriteLine("After {0} step{1}: ", i + 1, i == 0 ? "" : "s");
             }
             PrintList(TransformPartTwo(current));
-
             var cnt = 0;
             TransformPartTwo(current).ForEach(x => cnt += x.Count(y => y.Equals('#')));
             Console.WriteLine(cnt);
